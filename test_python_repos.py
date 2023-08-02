@@ -8,8 +8,7 @@ class Status_codeTestCase(unittest.TestCase):
 
 	def test_status_code(self):
 		"""Czy status_code jest równy 200"""
-		status = r.status_code
-		self.assertEqual(status,200)
+		self.assertEqual(r.status_code,200)
 
 if __name__ == '__main__':
 	unittest.main()
